@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <title><%= name %></title>
+</head>
+<body>
+
+  
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="" class="navbar-brand mx-auto">Horario de <%= name %></a>
+      
+      </nav>
+      <div class="contenedor">
+        <% if (login) { %>                
+            <h1><strong><%= name %></strong> <a class="btn-xs btn" style="background-color: green; color: aliceblue;" href="logout" class="a-logout">Cerrar cesion</a></h1>                        
+            
+        <%} else { %>
+            <h1><strong><%= name %></strong></h1>   
+            <a  href="login" class="a-login">Ir a Login</a>
+        <% } %>
+      </div>
+      <br><br>
+<div class="container">
+    
+<div class="row">
+    
+<div class="col-md-12">
+<a href="/news" style="background-color: green; color: aliceblue;" class="btn-xs btn">Nuevo</a>
+
+ 
+<br><br>
+<% if(materia.length>0){%>
+<table class="table table-striped" border="1">
+<thead style="background-color: darkgreen ; ">
+    <th>Codigo</th>
+	<th>Nombre</th>
+	<th>Horario</th>
+	<th>Salon</th>
+	<th></th>
+</thead>
+  <% for(var i=0; i<materia.length; i++) {%>
+    <tr class="quote">
+      <td><%= materia[i].codigo %></td>
+      <td><%= materia[i].nombre %></td>
+      <td><%= materia[i].horario %></td>
+      <td><%= materia[i].salon %></td>
+      <td>
+      	<a href="/edit/<%= materia[i].id %>" style="background-color: green; color: aliceblue;" class="btn-xs btn">Editar</a>
+      	<a href="/delete/<%= materia[i].id %>" style="background-color: green; color: aliceblue;" class="btn-xs btn">Eliminar</a>
+      </td>
+    </tr>
+  <% } %>
+</table>
+<%} else {%>
+<p class="alert alert-warning">No hay contactos</p>
+<% } %>
+</div>
+</div>
+</div>
+</body>
+</html>

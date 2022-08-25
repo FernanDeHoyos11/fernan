@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  
+  <title>Editar</title>
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<h2>Actualizar</h2>
+<a href="/news" class="btn btn-default">Inicio</a>
+<br><br>
+<form method="post" action="/update">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Codigo</label>
+    <input type="text" name="codigo" value="<%= materia.codigo %>" class="form-control" id="exampleInputEmail1" placeholder="codigo">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Nombre</label>
+    <input type="text" name="nombre" value="<%= materia.nombre %>" class="form-control"  id="exampleInputEmail1" placeholder="nombre">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Horario</label>
+    <input type="text" name="horario" class="form-control" value="<%= materia.horario %>" id="exampleInputEmail1" placeholder="horario">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Salon</label>
+    <input type="text" name="salon" class="form-control" value="<%= materia.salon %>"  id="exampleInputEmail1" placeholder="salon">
+  </div>
+
+<input type="hidden" name="id" value="<%= materia.id %>">
+
+  <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>

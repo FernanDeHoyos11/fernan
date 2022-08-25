@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    
+}
+.cabesera {
+text-align: center;
+padding-top: 30px;
+padding-block-end: 30px;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'open sans';
+    height: 1000px;
+}
+.contenedor{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    margin-block-end: 30px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.tabla{
+    width: 25%;
+    height: 400px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 0px black;
+    padding: px;
+    text-align: center;
+    flex-grow: 1;
+    color: black;
+    
+}
+.img{
+    padding-block-end: 20px;
+}
+.tabla:hover{
+    background: rgb(176, 253, 221);
+    color: rgb(0, 0, 0);
+    transition: 0.2 all;
+    transform: scale(1.1);
+    cursor: pointer;
+    padding-block-end: 30px;
+}
+.div-uno{
+    text-align: center;
+    width: auto;
+}
+.div-dos{
+    text-align: center;
+    width: auto;
+}
+.div-tres{
+    text-align: center;
+    width: auto;
+}
+.div-cuatro{
+    text-align: center;
+    width: auto;
+}
+.div-cinco{
+    text-align: center;
+    width: auto;
+}
+.div-seis{
+    text-align: center;
+    width: auto;
+}
+.div-siete{
+    text-align: center;
+    width: auto;
+}
+.cronometro{
+    width:200px;
+    height:100px;
+    text-align:center;
+}
+.btn-agregar{
+ s
+} 
+.pie{
+  padding-block-end: 40px;
+}

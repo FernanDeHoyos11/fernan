@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>monitoreo </title>
+    <link rel="stylesheet" href="/styles/semestre.css">
+</head>
+<header class="cabesera">
+     <h1>Semestre 2022-02 Fernán De hoyos</h1>
+</header>
+<body>
+    <% if(materia.length>0){%>
+
+       
+ <div class="contenedor">
+    <div class="tabla">
+        <h2><%= materia[0].nombre %></h2>
+        <img class="img" src="/imgSem/1.png" width="70px">
+         <div class="div-uno">   
+         </div>
+    </div>
+        <div class="tabla">
+        <h2><%= materia[1].nombre %></h2>
+        <img class="img" src="/imgSem/2.png" width="70px">
+        <div class="div-dos">
+            
+        </div>
+    </div>
+
+    <div class="tabla">
+        <h2><%= materia[2].nombre %></h2>
+        <img class="img" src="/imgSem/3.png" width="70px">
+         <div class="div-tres">
+            <li>Sin actividades proximas</li>
+         </div>
+    </div>
+    <div class="tabla">
+        <h2><%= materia[3].nombre %></h2>
+        <img class="img" src="/imgSem/4.png" width="70px">
+         <div class="div-cuatro">
+            <li>Sin actividades proximas</li>
+         </div>
+    </div>
+    <div class="tabla">
+        <h2><%= materia[4].nombre %></h2>
+        <img class="img" src="/imgSem/5.png" width="70px">
+       <div class="div-cinco">
+        
+       </div>
+    </div>
+    <div class="tabla">
+        <h2><%= materia[5].nombre %></h2>
+        <img class="img" src="/imgSem/6.png" width="70px">
+       <div class="div-seis">
+        <li>Estudio unidad y audios</li>
+       </div>
+    </div>
+   
+ </div>
+ 
+    <%} else {%>
+        <p class="alert alert-warning">No hay contactos</p>
+        <% } %>
+
+    
+</body>
+ 
+</html>

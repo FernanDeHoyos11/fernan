@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    sborder: solid 1px rgb(0, 0, 0);
+     
+     
+}
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color:rgb(255, 255, 255);
+     
+}
+header{
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    background-size: 100% 100%;
+    height: auto;
+    
+     
+}
+ 
+header #menu  {  
+    padding: 10px;
+    background-color: rgb(40, 40, 40);
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+header #menu   li{
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+    padding-right: 10px;
+ 
+}
+ 
+ 
+header #menu   li #a2{
+    color:  rgb(255, 255, 255);
+    text-decoration: none;   
+}
+header #menu   li #a1{
+    color:  rgb(255, 255, 255);
+    text-decoration: none; 
+}
+header #menu  li #a1:hover{
+    color: rgb(62, 68, 68);
+    text-decoration: solid;
+}
+ 
+header #menu li #a3{
+    color:  rgb(255, 255, 255);
+    text-decoration: none;
+     
+}
+header #menu  li #a2:hover{
+    color: rgb(62, 68, 68);
+    text-decoration: solid;
+}
+header #menu   li #a3:hover{
+    color: rgb(77, 77, 77);
+    text-decoration: solid;
+}
+header #menu   #logo{
+    font-style: italic;
+    margin-right: auto;
+    width: 300px; 
+    margin-left: auto;
+    height: 100px;
+
+}
+
+#main_conteiner header main{
+    margin: 10px 100px;
+    width: 1500px;
+    
+}
+#main_conteiner header main div{
+    margin: auto;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+#main_conteiner header main   h1{
+     font-size: 80px;
+     padding: 20px 0;
+     font-style: italic;
+     color: rgb(5, 22, 10);
+     background-color: aqua;
+}
+ 
+header nav  h1{
+    color: rgb(0, 0, 0);
+    text-align: center; 
+    text-decoration-style: solid;
+    padding-left:50px ;
+    padding-right: 50px;
+    
+    
+ 
+}
+header nav  {
+    vertical-align: middle;
+   margin-left: 30px;
+   margin-right: 30px;
+     
+
+ 
+}
+ 
+ header #cuerpo{
+      
+     padding: 300px;
+     width: 1010px;
+     margin-right: 800px;
+     margin-left: 10px;
+     padding-top: 10px;
+     
+     padding-left: 10px;
+
+ }
+ 
+ header #cuerpo #atr2  a{
+    color: rgb(18, 65, 0);
+    font-style: italic;
+    text-decoration: solid;
+ }
+ header #cuerpo #art3{
+    width: 520px;
+ }
+  body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.elemento {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start ;
+    flex-direction: column;
+    border-left: 1px rgb(0, 0, 0) solid;
+     
+    background-color: transparent;
+    margin: 5px;
+    padding: 10px;
+}
+
+.titulo {
+    font-size: 20px;
+    font-family: fantasy;
+    font-style: italic;
+    color: darkgreen;
+}
+
+.descripcion {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+.pie{
+    width: 100%;
+    height: 200px;
+    background-color: darkgrey;
+    text-align: center;
+}
+.cintia{
+     
+    margin-left: 10px;
+    color:  rgb(255, 255, 255);
+    text-decoration: none; 
+    direction: initial;
+    color: rgb(85, 153, 16);
+     
+}
+.pcampus{
+     
+    margin-left: 10px;
+    color:  rgb(255, 255, 255);
+    text-decoration: none; 
+    direction: initial;
+    color: rgb(85, 153, 16);
+     
+
+}
